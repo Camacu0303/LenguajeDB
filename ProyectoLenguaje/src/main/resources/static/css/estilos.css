@@ -1,0 +1,45 @@
+#tituloPrincipal{
+    color: aquamarine;
+    font-family: sans-serif;
+}
+
+.parrafoSecundario{
+    color: blueviolet;
+    font-size: 20px;
+    
+}
+
+
+a:link{
+    color:greenyellow;
+}
+
+a:visited{
+    color: darkgreen;
+    background-color: brown;
+    
+}
+
+a:hover{
+    background-color: black;
+    color: white;
+        border-radius:25px 
+    
+}
+
+a:active{
+    background-color: blue;
+    color: black;
+}
+
+p:nth-child(1){
+    background-color: red;
+}
+
+p:nth-child(even){
+    background-color: brown;
+}
+
+p:nth-child(odd){
+    background-color: gold
+}
